@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #214a61;
+    margin: 0;https://github.com/Secree/RockPaperScissorshttps://github.com/Secree/RockPaperScissors
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a3b4a;
+    z-index: 1;
+}
+
+nav a {
+    color: #ffda20;
+    text-decoration: none;
+}
+
+main #about{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    height: 100vh;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.colorfulText {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#about p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 20px;
+    color: #3adf9f;
+    letter-spacing: 6px;
+    word-spacing: 20px;
+}
+
+#projects {
+    position: absolute;
+    width: 100%;
+    top: 100vh;
+    height: 100vh;
+}
+
+#projects a {
+    font-size: 3rem;
+    color: #7af2ff;
+    text-decoration: none;
+}
+
+#projects p {
+    text-align: center;
+    margin-top: 100px;
+}
