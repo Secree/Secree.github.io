@@ -1,28 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Jan Jonas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Jonas - Developer</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#about">Jan Jonas</a>
+        </div>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
     </nav>
+    
     <main>
-      <div id="about">
-        <h1><span class="colorfulText">Jan Jonas</span></h1>
-        <p>I am Jonas, who aspire to be a great developer who want to give people convenience by the programs I make.</p>
-      </div>
-      <div id="projects">
-        <h1><span class="colorfulText">My Projects</span></h1>
-        <p><a href="https://github.com/Secree/RockPaperScissors">Rock Paper Scissors</a></p>
-      </div>
+      <section id="about" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Jan Jonas</span>
+            </h1>
+            <p class="hero-subtitle">
+              Aspiring Developer
+            </p>
+            <p class="hero-description">
+              I'm passionate about creating programs that bring convenience to people's lives. 
+              Let's build something amazing together.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-content">
+                <h3 class="project-title">Rock Paper Scissors</h3>
+                <p class="project-description">
+                  A classic game implementation with modern design and smooth interactions.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/Secree/RockPaperScissors" class="project-link" target="_blank">
+                    View on GitHub →
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-content">
+                <h3 class="project-title">Email Sender</h3>
+                <p class="project-description">
+                  A simple tool to send emails programmatically. Useful for automating notifications or sending custom messages from your apps.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/Secree/Email-Sender" class="project-link" target="_blank">
+                    View on GitHub →
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-content">
+                <h3 class="project-title">Gamified Reminder App</h3>
+                <p class="project-description">
+                  An RPG-inspired reminder app for younger audiences! Features fun, character-driven dialogue to make managing reminders more engaging and friendly—no quests or rewards, just interactive conversations.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/Secree/College-Projects/tree/main/Data%20Structure%20And%20Algorithm" class="project-link" target="_blank">
+                    View on GitHub →
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-content">
+                <h3 class="project-title">Pizza Order</h3>
+                <p class="project-description">
+                  A simple web app for ordering pizza online. Choose your favorite toppings and place your order easily!
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/Secree/Pizza" class="project-link" target="_blank">
+                    View on GitHub →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="contact-description">
+            Interested in working together? Feel free to reach out!
+          </p>
+          <div class="contact-links">
+            <a href="https://github.com/Secree" class="contact-link" target="_blank">GitHub</a>
+            <a href="https://www.facebook.com/janjonas.staana/" class="contact-link" target="_blank">Facebook</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <script src=".js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="index.js"></script>
   </body>
 </html>
 
